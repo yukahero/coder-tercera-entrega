@@ -1,0 +1,22 @@
+{
+  "name": "coder-tercera-entrega",
+  "version": "1.0.0",
+  "description": "Tercera entrega curso coder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yukahero/coder-tercera-entrega.git"
+  },
+  "author": "Yuli Katherine Hernandez Romero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yukahero/coder-tercera-entrega/issues"
+  },
+  "homepage": "https://github.com/yukahero/coder-tercera-entrega#readme",
+  "dependencies": {
+    "sass": "^1.74.1"
+  }
+}
