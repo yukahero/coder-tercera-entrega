@@ -1,0 +1,186 @@
+//Estilos de base
+@import "base/colors";
+
+//Estilos de componentes
+@import "components/header";
+
+* {
+  margin: 0px;
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+body {
+  background-image: url("../images/5393627.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  color: $dark_blue !important;
+}
+
+/*html {
+  min-height: 100%;
+  position: relative;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    95deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(0, 28, 60, 1) 35%,
+    rgba(200, 62, 71, 1) 100%
+  );
+}*/
+
+.active {
+  color: $light_blue !important;
+}
+
+footer,
+main {
+  margin: 0 3rem;
+}
+
+.banner-section__title {
+  color: $red;
+  font-weight: bold;
+}
+
+.banner-section__subtitle {
+  color: $dark_blue;
+  font-weight: bold;
+}
+
+.service-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.service-section__service-element {
+  display: flex;
+  font-size: 1.25rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.service-section__service-element img {
+  border-radius: 12px;
+}
+
+.testimonials-section {
+  background-color: $white;
+}
+
+#nuestro-equipo {
+  margin-top: 4rem;
+}
+
+#nuestro-equipo img {
+  border-radius: 12px;
+}
+
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1.25rem;
+  gap: 1rem;
+}
+
+footer span {
+  background-color: $dark_blue;
+  border-radius: 12px;
+  color: aliceblue;
+  line-height: 24px;
+  margin-right: 12px;
+  padding: 12px;
+}
+
+@media (min-width: 1440px) {
+  header nav {
+    margin: 0 auto;
+    padding-top: 4.5rem !important;
+    width: 69rem;
+  }
+  header nav a {
+    font-size: 3rem !important;
+  }
+  header nav ul li a {
+    font-size: 1.125rem !important;
+  }
+  main {
+    width: 69rem;
+    margin: 0 auto;
+  }
+  .banner-section__title {
+    font-size: 2.5rem;
+    line-height: 2.875rem;
+  }
+
+  .banner-section__subtitle {
+    font-size: 2rem;
+    list-style: 2.375rem;
+  }
+
+  .team-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+
+  /*#nuestro-equipo div {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }*/
+
+  footer div {
+    width: 69rem;
+  }
+}
+
+#formulario-inicio {
+  background-color: $dark_blue;
+  max-width: 30%;
+  border-radius: 12px;
+  align-items: center;
+  margin: 3rem auto;
+  padding: 2rem;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  color: $dark_blue;
+  justify-content: space-around;
+}
+
+#formulario-inicio div {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+#formulario-inicio div label {
+  text-align: center;
+  color: aliceblue;
+  font-weight: bold;
+}
+#formulario-inicio div input {
+  padding: 0.25rem 1rem;
+  border-radius: 6px;
+  border: 1px;
+}
+#formulario-inicio div button {
+  border-radius: 12px;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.75rem 1.5rem;
+  background-color: $light_blue;
+  color: aliceblue;
+  border: 1px;
+}

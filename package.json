@@ -16,7 +16,5 @@
     "url": "https://github.com/yukahero/coder-tercera-entrega/issues"
   },
   "homepage": "https://github.com/yukahero/coder-tercera-entrega#readme",
-  "dependencies": {
-    "sass": "^1.74.1"
-  }
+  "dependencies": {}
 }
