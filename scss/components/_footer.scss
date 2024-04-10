@@ -1,0 +1,29 @@
+footer {
+  margin: 0 3rem;
+
+  div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 1.25rem;
+    gap: 1rem;
+  }
+
+  span {
+    background-color: $dark_blue;
+    border-radius: 12px;
+    color: aliceblue;
+    line-height: 24px;
+    margin-right: 12px;
+    padding: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  footer {
+    div {
+      width: 69rem;
+    }
+  }
+}
