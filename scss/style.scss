@@ -1,6 +1,12 @@
 //Estilos de abstracciones
 @import "abstract/variables";
 
+//Estilos de utilidades
+@import "utils/mixins";
+
+//Estilos sobreescritos de librerias
+@import "vendors-extensions/bootstrap";
+
 //Estilos de base
 @import "base/base", "base/reset";
 
@@ -10,5 +16,3 @@
 //Estilos de paginas
 @import "pages/index", "pages/inicio-sesion", "pages/nosotros";
 
-//Estilos sobreescritos de librerias
-@import "vendors-extensions/bootstrap";

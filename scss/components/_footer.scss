@@ -20,7 +20,7 @@ footer {
   }
 }
 
-@media (min-width: 1440px) {
+@media (min-width: $view-xl) {
   footer {
     div {
       width: 69rem;
