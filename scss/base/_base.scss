@@ -1,8 +1,8 @@
 main {
-  margin: 0 3rem;
+  margin: 0 0.5rem;
 }
 
-@media (min-width: $view-xl) {
+@media (min-width: $view-l) {
   main {
     width: 69rem;
     margin: 0 auto;
