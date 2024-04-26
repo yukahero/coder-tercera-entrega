@@ -2,6 +2,30 @@
 /// @param {Length} $width
 /// @param {Length} $height
 @mixin size($width, $height: $width) {
-    width: $width;
-    height: $height;
+  width: $width;
+  height: $height;
+}
+
+//// Asigna el tamaño a los titulos
+@mixin titleSize($color: $black) {
+  color: $color;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+  @media (min-width: $view-l) {
+    font-size: 3rem;
+    line-height: 2.875rem;
   }
+}
+
+//// Asigna el tamaño a los subtitulos
+@mixin subtitleSize($color: $black) {
+  color: $color;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-align: center;
+  @media (min-width: $view-l) {
+    font-size: 2rem;
+    line-height: 2.375rem;
+  }
+}

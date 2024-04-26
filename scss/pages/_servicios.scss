@@ -1,0 +1,11 @@
+.title-section {
+  margin-top: 1.5rem;
+
+  h2 {
+    @include titleSize($dark_blue);
+  }
+
+  h3 {
+    @include subtitleSize($dark_blue);
+  }
+}

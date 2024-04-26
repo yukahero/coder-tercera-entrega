@@ -1,15 +1,11 @@
 .banner-section {
   margin-top: 1.5rem;
   &__title {
-    color: $red;
-    font-weight: bold;
-    font-size: 1.5rem;
+    @include titleSize($red);
   }
 
   &__subtitle {
-    color: $dark_blue;
-    font-weight: bold;
-    font-size: 1.125rem;
+    @include subtitleSize($dark_blue);
   }
 
   &__image {
@@ -40,6 +36,12 @@
       flex-direction: column;
       align-items: center;
       gap: 0.75rem;
+      width: 9.67rem;
+
+      h3 {
+        font-size: 1.125rem;
+      }
+
       img {
         @include size(9.75rem, auto);
       }
@@ -60,7 +62,7 @@
 
     &__subtitle {
       font-size: 2rem;
-      list-style: 2.375rem;
+      line-height: 2.375rem;
     }
 
     &__image {
@@ -80,6 +82,7 @@
       padding-top: 5rem;
 
       &__service-element {
+        width: 18.75rem;
         img {
           @include size(18.75rem, auto);
         }
