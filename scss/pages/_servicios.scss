@@ -9,3 +9,45 @@
     @include subtitleSize($dark_blue);
   }
 }
+
+.service-description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  p {
+    color: $red;
+    font-weight: 600;
+  }
+
+  li {
+    color: $dark_blue;
+    font-weight: 600;
+  }
+
+  img {
+    @include size(15.625rem, auto);
+  }
+}
+
+@media (min-width: $view-l) {
+  .service-description {
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+
+    p {
+      font-size: 2rem;
+    }
+
+    li {
+      font-size: 1.5rem;
+    }
+    img {
+      @include size(23.875rem, auto);
+    }
+  }
+}

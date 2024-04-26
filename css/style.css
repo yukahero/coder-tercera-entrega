@@ -252,4 +252,43 @@ footer .social-media {
   }
 }
 
+.service-description {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.service-description p {
+  color: #c83e47;
+  font-weight: 600;
+}
+.service-description li {
+  color: #001c3c;
+  font-weight: 600;
+}
+.service-description img {
+  width: 15.625rem;
+  height: auto;
+}
+
+@media (min-width: 1200px) {
+  .service-description {
+    align-items: center;
+    flex-direction: row;
+    gap: 3rem;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    margin-top: 5rem;
+  }
+  .service-description p {
+    font-size: 2rem;
+  }
+  .service-description li {
+    font-size: 1.5rem;
+  }
+  .service-description img {
+    width: 23.875rem;
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
